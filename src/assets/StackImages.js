@@ -9,7 +9,7 @@ import SASS from "../assets/Stack_Sass.svg";
 import BOOTSTRAP from "../assets/Stack_Bootstrap.svg";
 import Github from "../assets/DarkGithub.svg";
 import Chain from "../assets/Projects/Group.png";
-import LightModeChain from "../assets/Projects/LightModeChain.png";
+import LightModeChain from "../assets/Projects/lightModeChain.png";
 const StackImages = {
   HTML,
   CSS,
