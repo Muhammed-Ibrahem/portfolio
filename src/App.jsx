@@ -8,7 +8,9 @@ import { createPortal } from "react-dom";
 import ThemeToggle from "./UI/ThemeToggle";
 import { useEffect, useState } from "react";
 
-const Mode = localStorage.getItem("SuKaar-Portfolio-Theme") === "DARK";
+const Mode = localStorage?.getItem("SuKaar-Portfolio-Theme")
+  ? localStorage.getItem("SuKaar-Portfolio-Theme") === "DARK"
+  : localStorage.setItem("SuKaar-Portfolio-Theme", "DARK");
 
 function App() {
   const [darkMode, setDarkMode] = useState(Mode);
@@ -22,7 +24,15 @@ function App() {
     });
   };
   useEffect(() => {
-    document.documentElement.className = darkMode ? "dark" : "";
+    const isThereThemeInStorage = localStorage?.getItem(
+      "SuKaar-Portfolio-Theme"
+    );
+    const isItDark = isThereThemeInStorage
+      ? isThereThemeInStorage === "DARK"
+        ? true
+        : false
+      : false;
+    document.documentElement.className = isItDark ? "dark" : "";
   }, []);
   return (
     <>
