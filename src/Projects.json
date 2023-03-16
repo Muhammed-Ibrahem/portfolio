@@ -1,6 +1,6 @@
 [
   {
-    "thumbnail": "../src/assets/Projects/Blog-App.webp",
+    "thumbnail": "./src/assets/Projects/Blog-App.webp",
     "title": "Blog App",
     "description": "This application is a simple blog, something like Medium and Dev, It allows you to create posts using MarkdownIn this project I used React.js and Firebase to learn the basic CRUD operations and also Firebase Authentications",
     "stack": ["React.js", "Tailwindcss", "Firebase"],
@@ -8,7 +8,7 @@
     "viewCode": "https://github.com/Muhammed-Ibrahem/blog-app"
   },
   {
-    "thumbnail": "../src/assets/Projects/WITW.webp",
+    "thumbnail": "./src/assets/Projects/WITW.webp",
     "title": "Where in the world",
     "description": "A Frontend-mentor challenge to fetch all countries from `REST-COUNTRIES-API` and show details about each country summarized on homepage, Each country has it's own details page that shows additional data about each country, like domains, borders, languages etc",
     "stack": ["React.js", "Tailwindcss", "REST-API"],
@@ -16,7 +16,7 @@
     "viewCode": "https://github.com/Muhammed-Ibrahem/Where-In-The-World"
   },
   {
-    "thumbnail": "../src/assets/Projects/RetroBazaar.webp",
+    "thumbnail": "./src/assets/Projects/RetroBazaar.webp",
     "title": "Retro Bazaar",
     "description": "Responsive landing page, Designed by graphBerry and coded by, I learnt how to make on-scroll animation by dealing with Intersection-Observers and RequestAnimationFrame, and practiced my SCSS, created a small simple animation library to simulate the idea of Wow.js and animate.css",
     "stack": ["HTML", "SCSS", "JavaScript"],
@@ -24,7 +24,7 @@
     "viewCode": "https://github.com/Muhammed-Ibrahem/Retro-Bazaar"
   },
   {
-    "thumbnail": "../src/assets/Projects/QuizApp.webp",
+    "thumbnail": "./src/assets/Projects/QuizApp.webp",
     "title": "Quiz App",
     "description": "This app was the last test on Scrimba's React Course by Bob Ziroll, this app consumes data from Trivia API, The user have to choose between multiple categories and diffulties and he is being ranked by his correct/wrong answers",
     "stack": ["React.js", "Tailwindcss", "Trivia API"],
@@ -32,7 +32,7 @@
     "viewCode": "https://github.com/Muhammed-Ibrahem/QuizApp"
   },
   {
-    "thumbnail": "../src/assets/Projects/RWT.webp",
+    "thumbnail": "./src/assets/Projects/RWT.webp",
     "title": "Responsive With Tailwindcss",
     "description": "A Simple landing page to learn Tailwindcss, the design was taken from a challenge on Frontend-mentor, I created it with React & tailwind to keep practicing my React.js",
     "stack": ["React.js", "Tailwindcss"],
@@ -40,7 +40,7 @@
     "viewCode": "https://github.com/Muhammed-Ibrahem/Responsive-With-Tailwindcss"
   },
   {
-    "thumbnail": "../src/assets/Projects/Todo-List.webp",
+    "thumbnail": "./src/assets/Projects/Todo-List.webp",
     "title": "Todo-List App",
     "description": "Challenge from frontend-mentor to make Todo-List with 2 themes DarkMode & LightMode, I used React.js to improve my skills and used the CSS-Modules for styles, And data are being save in the User's LocalStorage so his Todos are saved even after closing the browser",
     "stack": ["React.js", "CSS-Modules"],
@@ -48,7 +48,7 @@
     "viewCode": "https://github.com/Muhammed-Ibrahem/Todo-List-App"
   },
   {
-    "thumbnail": "../src/assets/Projects/SMD.webp",
+    "thumbnail": "./src/assets/Projects/SMD.webp",
     "title": "Social Media Dashboard",
     "description": "My first application to make with Tailwindcss to learn it, I made this simple app with 2 Modes, DarkMode & LightMode, It's also responsive with all screen sizes, it's has no functionality but the themeToggle",
     "stack": ["React.js", "Tailwindcss"],
