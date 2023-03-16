@@ -11,7 +11,7 @@ const ProjectCard = ({
   return (
     <div className="w-full select-none space-y-4 overflow-hidden rounded-lg pb-4 font-Poppins shadow-lg dark:bg-CardBg">
       <div className="border-b border-black/20">
-        <img className="w-full" src={thumbnail} alt="Dummy Test" />
+        <img className="h-[200px] w-full" src={thumbnail} alt="Dummy Test" />
       </div>
       <div className="space-y-4 p-4">
         <h3 className="overflow-hidden text-ellipsis whitespace-nowrap text-lg font-bold tracking-wider text-black dark:text-SolidHeadingDarkMode">
